@@ -59,9 +59,9 @@ Plotted the predicted analysis.<br>
 #### 🤖 Team Members
 <table>
   <tr>
-    <td align="center"><a href="https://github.com"><img src="https://avatars.githubusercontent.com/u/45797873?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Janathsri Krishnan</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/jfmengels"><img src="https://avatars.githubusercontent.com/u/75175772?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kaushik</b></sub></a><br /></td>
-    <td align="center"><a href="https://jakebolam.com"><img src="https://avatars.githubusercontent.com/u/65252590?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mohamed Fazil</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/janathsrikrishnan"><img src="https://avatars.githubusercontent.com/u/45797873?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Janathsri Krishnan</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/kaushik-ss"><img src="https://avatars.githubusercontent.com/u/75175772?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kaushik</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/fazil2003"><img src="https://avatars.githubusercontent.com/u/65252590?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mohamed Fazil</b></sub></a><br /></td>
   </tr>
 </table>
 
