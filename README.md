@@ -26,18 +26,18 @@ Plotted the predicted analysis.<br>
 ### Requirements
 💫 Python>=3.6
 
-💫 base64
-💫 flask
-💫 io
-💫 matplotlib
-💫 numpy
-💫 pandas
-💫 pymongo
-💫 pymongo[src]
-💫 requests
-💫 sklearn
-💫 statsmodels
-💫 urllib
+💫 base64<br>
+💫 flask<br>
+💫 io<br>
+💫 matplotlib<br>
+💫 numpy<br>
+💫 pandas<br>
+💫 pymongo<br>
+💫 pymongo[src]<br>
+💫 requests<br>
+💫 sklearn<br>
+💫 statsmodels<br>
+💫 urllib<br>
 
 #### Still Implementing
 💫 Rerouting as per the crime rate.<br>
