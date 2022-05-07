@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template
+from KNN import get_val
 # from backend import get_shops
 # from dataFile import dataCoordinates
 from mongoAccess import accessRoute
@@ -6,7 +7,7 @@ from mongoAccess import accessRoute
 import pandas as pd
 import matplotlib.pyplot as plt
 import base64
-import io
+import io  
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
@@ -28,9 +29,18 @@ async def sendData():
     if (len(dataCoordinates)>1000):
         dataCoordinates = dataCoordinates[::100]
 
+    urls=[]
     for i in dataCoordinates:
         data.append([i[1], i[0]])
+        k.append(get_val(i))
 
+    for i in dataCoordinates:
+        k=get_val(i)
+        for j in k:
+            urls.append('http://127.0.0.1:5000/plot?district='+j)
+    for i in urls:
+        print(i)
+    
     polyLine = "L.polyline({data}).addTo(map).bindPopup('popup').openPopup();".format(data = data)
 
     # Render the page with the map

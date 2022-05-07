@@ -1,5 +1,17 @@
 # Data Science: Crime Analysis and Safety Recommendation
 # Team Name: Wind Falcons
+
+<img src="images/logo.png" />
+<br><br>
+
+### 🌟	What we have done
+💫 We have analysed the dataset and <b>prepared the dataset</b> with necessary information.<br>
+💫 We have plotted the <b>route</b> in the <a href="https://openstreetmap.org">OpenStreetMap.org</a> from the starting address to the destination address.<br>
+💫 We have plotted the graph for total crimes based on the particular city for each year.<br>
+💫 We have used <b>Autoregression</b> for time series analysis and prediction.<br>
+💫 We have used <b>K Nearest Neighbors</b> for finding nearest places of crime occurences for each juncture between the routes.<br>
+💫 We have used <b>Flask</b> to develop the web application to ease the process for the user.
+
 ### 🌟	Overview 
 💫 First we perform exploratory data analysis on the given crime data then this data will be exported into the database for querying purposes. Then we use a standard navigation API to get the start(A) and end(B) destination thus we get the route from the point A to B. Now we get the reverse latitude from the points present in between A and B. For each and every point we perform caching so as to increase performance. Now that we got the latitude for every intermediate point we also have to get the crime’s location’s latitude. We perform K nearest neighbors for each point then display the results and ask for the user to change route if the route found has more crime as compared to other paths. 
 
@@ -9,17 +21,17 @@
 ### 🌟	Tools & Technologies 
 💫 Python as the implementation language. Openrouteservice’s api for getting the Direction between two points (i.e) source and destination.  openstreetmap and requests for the location to latitude and longitude conversion.  K nearest points’s Algorithm for finding the closest crime for each intermediate point. Flask is to be used for web based application.
 
-### 🌟	Image 1
+### 🌟	Screenshot 1
 <img src="images/image1.png" style="width: 800px" /><br>
 Starting Page of the Project. User needs to enter the starting and destination address.
 <br>
 
-### 🌟	Image 2
+### 🌟	Screenshot 2
 <img src="images/image2.png" style="width: 800px" /><br>
 Displays the shortest route first, then it reroutes to the alternative routes which has less crime occurence rate.
 <br>
 
-### 🌟	Image 3
+### 🌟	Screenshot 3
 <img src="images/image3.png" style="width: 800px" /><br>
 Plotted the predicted analysis.<br>
 
