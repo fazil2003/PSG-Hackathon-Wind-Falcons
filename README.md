@@ -2,7 +2,7 @@
 # Team Name: Wind Falcons
 
 <img src="images/logo.png" />
-<br><br>
+<br>
 
 ### 🌟	What we have done
 💫 We have analysed the dataset and <b>prepared the dataset</b> with necessary information.<br>
