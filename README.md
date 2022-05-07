@@ -23,6 +23,22 @@ Displays the shortest route first, then it reroutes to the alternative routes wh
 <img src="images/image3.png" style="width: 500px" /><br>
 Plotted the predicted analysis.<br>
 
+### Requirements
+💫 Python>=3.6
+
+💫 base64
+💫 flask
+💫 io
+💫 matplotlib
+💫 numpy
+💫 pandas
+💫 pymongo
+💫 pymongo[src]
+💫 requests
+💫 sklearn
+💫 statsmodels
+💫 urllib
+
 #### Still Implementing
 💫 Rerouting as per the crime rate.<br>
 💫 Displaying the maximum crime that has occured in the particular region.<br>
