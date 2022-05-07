@@ -1,0 +1,58 @@
+{% include 'header.html' %}
+
+{% block content %}
+<div class="container">
+
+    <center>
+
+        <form class="form" action="senddata" method="POST">
+
+            <input class="checkbox" type="checkbox" name="get_location" value="auto" onClick="detectLocation()">Auto detect
+
+            <p class="title">Starting address</p> 
+            <input id="starting_address" type="text" name="start" placeholder="Starting address..." />
+            <p class="current_location"></p>
+
+            <p class="title">Destination address</p> 
+            <input id="destination_address" type="text" name="end" placeholder="Destination address..." />
+
+            <br><br>
+            <input class="button" type="submit" value="Submit" />
+
+        </form>
+    </center>
+</div>
+
+<script>
+var checkBox = document.getElementsByClassName("checkbox")[0];
+var text = document.getElementsByClassName("current_location")[0];
+var startingAddressText = document.getElementById("starting_address");
+
+function detectLocation() {
+    if (checkBox.checked == true){
+        text.style.display = "block";
+        startingAddressText.style.display = "none";
+        getLocation();
+    } else {
+        text.style.display = "none";
+        startingAddressText.style.display = "block";
+    }
+}
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    text.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+    text.innerHTML = "Latitude: <b>" + position.coords.latitude + "</b><br>Longitude: <b>" + position.coords.longitude + "</b>";
+}
+
+</script>
+
+</body>
+</html>
+{% endblock %}
