@@ -26,6 +26,7 @@ Plotted the predicted analysis.<br>
 #### Still Implementing
 💫 Rerouting as per the crime rate.<br>
 💫 Displaying the maximum crime that has occured in the particular region.<br>
+💫 Adding safety recommendation to the users.<br>
 
 #### Team Members
 💫  20I224 - Kaushik S<br>
