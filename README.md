@@ -24,10 +24,10 @@ Displays the shortest route first, then it reroutes to the alternative routes wh
 Plotted the predicted analysis.<br>
 
 #### Still Implementing
-💫 Rerouting as per the crime rate.
-💫 Displaying the maximum crime that has occured in the particular region.
+💫 Rerouting as per the crime rate.<br>
+💫 Displaying the maximum crime that has occured in the particular region.<br>
 
 #### Team Members
-💫  20I224 - Kaushik S
-💫  21I433 - Janathsri Krishnan K
-💫  21I437 - Mohamed Fazil Z
+💫  20I224 - Kaushik S<br>
+💫  21I433 - Janathsri Krishnan K<br>
+💫  21I437 - Mohamed Fazil Z<br>
