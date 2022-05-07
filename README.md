@@ -1,5 +1,5 @@
-# Crime Analysis
-### Wind Falcons
+# Data Science: Crime Analysis and Safety Recommendation
+# Team Name: Wind Falcons
 ### 🌟	Overview 
 💫 First we perform exploratory data analysis on the given crime data then this data will be exported into the database for querying purposes. Then we use a standard navigation API to get the start(A) and end(B) destination thus we get the route from the point A to B. Now we get the reverse latitude from the points present in between A and B. For each and every point we perform caching so as to increase performance. Now that we got the latitude for every intermediate point we also have to get the crime’s location’s latitude. We perform K nearest neighbors for each point then display the results and ask for the user to change route if the route found has more crime as compared to other paths. 
 
