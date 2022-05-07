@@ -10,17 +10,17 @@
 💫 Python as the implementation language. Openrouteservice’s api for getting the Direction between two points (i.e) source and destination.  openstreetmap and requests for the location to latitude and longitude conversion.  K nearest points’s Algorithm for finding the closest crime for each intermediate point. Flask is to be used for web based application.
 
 ### 🌟	Image 1
-<img src="images/image1.png" style="width: 500px" /><br>
+<img src="images/image1.png" style="width: 800px" /><br>
 Starting Page of the Project. User needs to enter the starting and destination address.
 <br>
 
 ### 🌟	Image 2
-<img src="images/image2.png" style="width: 500px" /><br>
+<img src="images/image2.png" style="width: 800px" /><br>
 Displays the shortest route first, then it reroutes to the alternative routes which has less crime occurence rate.
 <br>
 
 ### 🌟	Image 3
-<img src="images/image3.png" style="width: 500px" /><br>
+<img src="images/image3.png" style="width: 800px" /><br>
 Plotted the predicted analysis.<br>
 
 ### Requirements
