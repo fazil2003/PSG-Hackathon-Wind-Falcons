@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from backend import get_shops
+# from backend import get_shops
 # from dataFile import dataCoordinates
 from mongoAccess import accessRoute
 

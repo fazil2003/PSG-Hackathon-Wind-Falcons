@@ -1,6 +1,5 @@
 import overpy
 
-
 def get_shops(data):
     # Initialize the API
     api = overpy.Overpass()

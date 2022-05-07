@@ -1,0 +1,12 @@
+base64
+flask
+io
+matplotlib
+numpy
+pandas
+pymongo
+pymongo[src]
+requests
+sklearn
+statsmodels
+urllib
